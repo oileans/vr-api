@@ -4,6 +4,7 @@ Quando('faço uma requisição para o endpoint de consulta') do
 end
 
 Então('a resposta deve conter a chave {string}') do |string|
+  #verificando se a key 'typeOfEstablishment' existe dentor do JSon de retorno da API.
   expect(@response_body).to include(string)
 end
 

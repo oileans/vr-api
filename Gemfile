@@ -1,3 +1,4 @@
+#apontando para repo especifico de gemas
 source 'https://rubygems.org'
 
 gem 'cucumber'
